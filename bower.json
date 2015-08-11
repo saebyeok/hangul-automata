@@ -1,0 +1,16 @@
+{
+  "name": "hangul-automata",
+  "version": "0.0.1",
+  "authors": [
+    "saebyeok <marsturn@gmail.com>"
+  ],
+  "main": "src/hangul-automata",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

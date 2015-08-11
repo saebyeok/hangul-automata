@@ -1,0 +1,2 @@
+# Hangul Automata for javascript
+
