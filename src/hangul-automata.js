@@ -329,7 +329,7 @@
                 }
                 if(keyCode >= 96 && keyCode <= 105){ // 오른쪽 키패드 숫자
                     this.mode = "num";
-                    var num = keyCode - 96;
+                    num = keyCode - 96;
                     if(this.ingWord != ""){
                         this.completeText += this.ingWord;
                         this.ingWord = "";
@@ -434,7 +434,7 @@
                             this.nowStatus = this.H_STATUS.H_FIRST_C;
                         }
                     }else{ // 자음
-                        var finalCode = this.toFinal( mKeyCode );
+                        finalCode = this.toFinal( mKeyCode );
                         if( finalCode > 0 ){
                             this.phonemes[2] = finalCode;
                             this.nowStatus = this.H_STATUS.H_END_STATE;
@@ -451,7 +451,7 @@
                         this.phonemes[0] = mKeyCode;
                         this.nowStatus = this.H_STATUS.H_FIRST;
                     }else{
-                        var finalCode = this.toFinal(mKeyCode);
+                        finalCode = this.toFinal(mKeyCode);
                         if ( finalCode > 0 ){
                             this.phonemes[2] = finalCode;
                             this.nowStatus  = this.H_STATUS.H_END_STATE;
